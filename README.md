@@ -80,7 +80,7 @@ import (
 
 The import . form can be useful in tests that, due to circular dependencies, cannot be made part of the package being tested:
 
-```
+```go
 package foo_test
 
 import (
